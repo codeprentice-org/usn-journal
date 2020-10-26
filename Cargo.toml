@@ -1,0 +1,22 @@
+[package]
+name = "usn-journal"
+version = "0.1.0"
+authors = [
+    "Khyber Sen <kkysen@gmail.com>",
+    "Saquib Shazad <saquib.shahzad@uwaterloo.ca>",
+    "Asif Mallik <asif.mallik@columbia.edu>",
+    "Rickson Yang <rixin.yang.2001@gmail.com>",
+]
+edition = "2018"
+description = "An idiomatic Rust wrapper for the USN Journal on Windows"
+license = "MIT"
+repository = "https://github.com/codeprentice-org/usn-journal"
+homepage = "https://github.com/codeprentice-org/usn-journal/blob/main/README.md"
+readme = "README.md"
+categories = ["filesystem", "os::windows-apis"]
+keywords = ["USN", "USN journal", "change journal", "NTFS", "watch", "filesystem"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.21"
